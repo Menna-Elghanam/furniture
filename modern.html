@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Furniture products</title>
+    <!--link Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--link font awsome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Poppins:wght@200;400&family=Raleway:ital,wght@0,200;0,400;0,500;0,700;1,100;1,300&family=Roboto:wght@100;300;400;500&family=Urbanist:ital,wght@0,100;0,200;0,400;0,600;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="nav-bar">
+            <a href="index.html" class="logo">Fur<span class="logo-span">n</span>iture</a>
+            <div class="nav-right">
+                <div class="search">
+                    <form>
+                        <input id="search_item" type="text" placeholder="search what you need .." class="search-box"
+                            onkeyup="search()">
+                    </form>
+                </div>
+                <div class="nav-icon">
+                    <a href="login.html" class="icon"><i class="fa-solid fa-user"></i></a>
+                    <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+
+
+                </div>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="link"> Home</a></li>
+            <li><a href="#" class="link"> Classic</a></li>
+            <li><a href="#" class="link"> Modern</a></li>
+            <li><a href="#" class="link"> Products</a></li>
+            <li><a href="#about" class="link"> About</a></li>
+        </ul>
+    </header>
+    <!--cart-->
+    <div class="cart">
+        <h3 class="cart-title">Your Cart</h3>
+        <div class="cart-content">
+
+        </div>
+        <hr>
+        <!--total-->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <!--buy btn-->
+        <button type="button" class="buy-button">Buy Now</button>
+        <!--close cart-->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+    </div>
+    <div class="bottm-btn">
+        <button class="checkout">Go to Checkout</button>
+
+    </div>
+    <div class="heading">
+        <h2 class="modern-heading"> Shop Products</h2>
+    </div>
+
+
+    <div class="modern-container" id="modern-container">
+
+
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">product1</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">100$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/8.jpg">
+            <div class="p-details">
+                <h3 class="product_title">product2</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/7.jpg">
+            <div class="p-details">
+                <h3 class="product_title">product3</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">300$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+        <div class="product_list">
+            <img class="product-img" src="images/section_1/9.jpg">
+            <div class="p-details">
+                <h3 class="product_title">chair</h3>
+                <p>Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit.<br />Accusamus incidunt
+                    reru
+                </p>
+                <span class="product-price">200$</span>
+            </div>
+
+            <div class="rating-modern">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="details.html" class="details">View Details</a>
+            <i class="fa-solid fa-cart-shopping add-cart"></i>
+        </div>
+
+
+        <script src="script.js"></script>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
